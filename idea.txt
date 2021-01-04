@@ -1,0 +1,13 @@
+crear un esquema de X Gobierno regional
+el gobierno regional le va obsequiar el sistema web a la PNP por la cual debera tener una interfaz de la PNP o gobierno regional
+
+El sistema debe registrar y hacer seguimiento a cualquier persona que ingrese a dicha region que se esta haciendo el sistema; hay ingresado via TERRESTRE o AEREO
+
+Para el registro debe ser con el DNI la cual tendra los datos tanto personales como respuesta de laboratorio si tiene SARS o COVID.
+
+Si no tiene DNI o sale que esta infectado el administrador o encargado de hacer el seguimiento debera designarlo al area de cuarentena,  salvo que este su ruta de paso por la region
+
+Al momento de ver los datos del individuo se debera otorgarle un codigo valida hasta la salida del territorio de la region
+___________________________________________________________________________________________
+
+se va crear un sistema la cual tenga acceso administrador y usuario el administrador se encargara de subir los datos personales y resultado de laboratorio segun dni, el usuario se encaraga solo de hacer las consultas en el sistema poniendo el dni y segun el informe que vea tanto personales como de laboratorio si no esta infectado el sistema de usuario debe tener como unos botones de permitir ingreso la cual generara un codigo en la base de datos y si no es permitido se le devuelve al lugar de donde vino, continua si solo su ruta pasa por la region o se le pone en cuarentena
